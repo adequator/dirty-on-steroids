@@ -13,7 +13,7 @@ d3.addModule(
 		if(!d3.content.comments.length || !(this.imgs=$j('.c_body img')).length) return;
 
 		$j("body").prepend
-			("<div id='fotkiMain' style='background-color:black;'>"
+			("<div id='fotkiMain' style='background-color:black; position: relative; z-index: 4;'>"
 			+"<div id='fotkiShow' style='padding:7px;'><a href='#' id='aFotkiShow' style='color:white'><b>Показать все картинки</b></a></div>"
 			+"<div id='fotkiHide1' style='padding:7px;color:white'>"
 			+"<a href='#' id='aFotkiHide1' style='color:white'><b>Убрать картинки, буду читать</b></a>"
